@@ -96,13 +96,13 @@ function Home() {
 
         <>
             <header className="topbar">
-                <div className="logo-mask-wrapper">
-                    <svg viewBox="0 0 500 100" className="logo-mask">
-                        <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle">
-                            DiscoverMacedonia
-                        </text>
-                    </svg>
-                </div>
+                 <div className="logo-mask-wrapper">
+     <svg viewBox="0 0 200 340" className="logo-mask">
+         <text x="70%" y="50%" dominantBaseline="middle" textAnchor="middle">
+             DiscoverMacedonia
+         </text>
+     </svg>
+ </div>
 
                 <div className="top-actions">
                     <div className="search-wrapper">
