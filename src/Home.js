@@ -99,7 +99,7 @@ function Home() {
                 <div className="logo-mask-wrapper">
                     <svg viewBox="0 0 500 100" className="logo-mask">
                         <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle">
-                            MakTrip
+                            DiscoverMacedonia
                         </text>
                     </svg>
                 </div>
