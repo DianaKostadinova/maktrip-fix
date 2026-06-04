@@ -20,7 +20,7 @@ function Home() {
     useEffect(() => {
         document.title = "Discover Macedonia";
     }, []);
-   
+
     const pages = [
         { name: "Travel Planner", route: "/AIPlanner", keywords: ["plan", "trip", "generate", "itinerary", "planner", "travel", "what to do in macedonia", "activities", "skopje", "ohrid"] },
         { name: "Monuments & Places", route: "/Places", keywords: ["monument", "landmark", "places", "explore", "location", "visit", "Skopje", "Ohrid"] },
