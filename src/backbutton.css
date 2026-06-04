@@ -1,22 +1,39 @@
-﻿.back-button {
-    background: #ff6a00;
+.controls-container {
+    /* container is no-op now — button is position:fixed so it ignores parent layout */
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0;
+    background: var(--brand-orange, #f7931e);
+    color: #fff;
     border: none;
     padding: 10px 18px;
     border-radius: 8px;
-    font-size: 1rem;
-    font-weight: 500;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
     cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    transition: background 0.3s ease, transform 0.2s ease;
-    color: #333;
-    z-index: 1000;
-    margin-right:1300px;
-    width:100px;
-    height:50px;
-    
+    box-shadow: 0 4px 14px rgba(247, 147, 30, 0.3);
+    transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
 }
 
-    .back-button:hover {
-        background: #e0e0e0;
-        transform: translateX(-2px);
-    }
+.back-button:hover {
+    background: var(--brand-orange-hover, #ff6b35);
+    transform: translateX(-2px);
+    box-shadow: 0 6px 18px rgba(255, 107, 53, 0.4);
+}
+
+.back-button:active {
+    transform: translateX(0);
+}
+
+@media (max-width: 480px) {
+    .back-button { top: 14px; left: 14px; padding: 9px 14px; font-size: 0.88rem; }
+}

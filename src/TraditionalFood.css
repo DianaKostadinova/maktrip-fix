@@ -30,13 +30,6 @@
     display: none; 
 }
 
-.controls-container {
-    position: fixed;
-    top: 2rem;
-    right: 2rem;
-    z-index: 1000;
-}
-
 .dropdown-select {
     padding: 0.75rem 1rem;
     font-size: 0.9rem;
@@ -239,11 +232,6 @@
 
 
 @media screen and (max-width: 768px) {
-    .controls-container {
-        top: 1rem;
-        right: 1rem;
-    }
-
     .food-wrapper {
         padding: 4rem 1rem 2rem;
     }
@@ -282,28 +270,105 @@
     .food-list {
         gap: 1.5rem;
     }
+
+    .dropdown-select {
+        padding: 0.7rem 0.9rem;
+        font-size: 0.9rem;
+    }
+
+    .like-button {
+        padding: 0.7rem 1.2rem;
+        font-size: 0.95rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    .food-page {
+        overflow-x: hidden;
+    }
+
     .food-wrapper {
-        padding: 3rem 1rem 2rem;
+        padding: 3rem 0.8rem 2rem;
+        margin-top: 10px;
     }
 
     .food-hero {
         margin-bottom: 2rem;
     }
 
+    .food-hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .food-header {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+    }
+
+    .food-header h2 {
+        font-size: 1.3rem;
+    }
+
+    .food-card {
+        margin: 0;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .food-img {
+        height: 200px;
+        border-radius: 10px 10px 0 0;
+    }
+
     .food-info {
-        padding: 1.2rem;
+        padding: 1rem;
+        border-radius: 0 0 10px 10px;
+    }
+
+        .food-info h3 {
+            font-size: 1.1rem;
+            margin: 0 0 0.8rem 0;
+        }
+
+        .food-info p {
+            font-size: 0.8rem;
+            margin: 0.3rem 0;
+        }
+
+        .food-info .price {
+            font-size: 1rem;
+            margin-top: 0.6rem;
+        }
+
+        .food-info .location {
+            font-size: 0.8rem;
+        }
+
+    .food-list {
+        gap: 1rem;
     }
 
     .dropdown-select {
         padding: 0.6rem 0.8rem;
-        font-size: 0.85rem;
+        font-size: 0.8rem;
+        width: 100%;
+        max-width: 250px;
     }
 
     .like-button {
-        padding: 0.6rem 1.2rem;
-        font-size: 0.95rem;
+        padding: 0.6rem 1rem;
+        font-size: 0.85rem;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 44px;
+    }
+
+    .cuisine-tag {
+        padding: 0.25rem 0.6rem;
+        font-size: 0.7rem;
+        margin-top: 0.6rem;
     }
 }

@@ -8,6 +8,7 @@ import { doc, setDoc, updateDoc, getDoc } from "firebase/firestore";
 import "./backbutton.css";
 import "./AIPlanner.css";
 import { useNavigate } from "react-router-dom";
+import dataset from "./dataset.json";
 
 function SmartTravelPlanner() {
     const [location, setLocation] = useState("");
@@ -453,6 +454,7 @@ GENERATE SMART, PRACTICAL ITINERARY NOW:
 
         try {
             const databaseInfo = generateDatabaseInfo(location);
+
             setPlan(" Generating your travel plan... This may take a minute");
 
             const pinnedList = pinnedPlaces.map((p) => p.name).join(", ") || "none";
@@ -473,7 +475,7 @@ GENERATE SMART, PRACTICAL ITINERARY NOW:
                 interests: interests,
                 likedCategories: likedCategories,
                 pinnedPlaces: pinnedList,
-                databaseInfo: databaseInfo,
+                databaseInfo,
             });
 
             const result = await Promise.race([generationPromise, timeoutPromise]);

@@ -1,0 +1,132 @@
+[
+    {
+        "id": "site_001",
+        "name": "Warrior on a Horse (Statue of Alexander the Great)",
+        "type": "Monument",
+        "location": {
+            "city": "Skopje",
+            "lat": 41.9981,
+            "lng": 21.4254
+        },
+        "description": "A massive bronze statue in the main square of Skopje, widely regarded as representing Alexander the Great. It is one of the city's most iconic landmarks.",
+        "tags": [ "monument", "alexander", "skopje" ],
+        "source": "Local Tourism Board"
+    },
+    {
+        "id": "site_002",
+        "name": "Kozjak Lake",
+        "type": "Lake",
+        "location": {
+            "city": "Makedonski Brod",
+            "lat": 41.7294,
+            "lng": 21.0269
+        },
+        "description": "Kozjak Lake is the largest artificial lake in North Macedonia, surrounded by scenic mountains and cliffs, popular for hiking and photography.",
+        "tags": [ "lake", "nature", "hiking" ],
+        "source": "Wikipedia"
+    },
+    {
+        "id": "site_003",
+        "name": "Matka Canyon",
+        "type": "Canyon",
+        "location": {
+            "city": "Skopje",
+            "lat": 41.9556,
+            "lng": 21.2989
+        },
+        "description": "A stunning canyon near Skopje, home to monasteries, caves, and one of the world's deepest underwater caves. Popular for kayaking, hiking, and boat rides.",
+        "tags": [ "canyon", "nature", "adventure" ],
+        "source": "Visit Macedonia"
+    },
+    {
+        "id": "site_004",
+        "name": "Ohrid Lake",
+        "type": "Lake",
+        "location": {
+            "city": "Ohrid",
+            "lat": 41.0667,
+            "lng": 20.7333
+        },
+        "description": "One of Europe's oldest and deepest lakes, a UNESCO World Heritage site, shared between Macedonia and Albania. Known for crystal-clear waters and cultural heritage.",
+        "tags": [ "lake", "unesco", "ohrid" ],
+        "source": "UNESCO"
+    },
+    {
+        "id": "site_005",
+        "name": "Church of St. John at Kaneo",
+        "type": "Church",
+        "location": {
+            "city": "Ohrid",
+            "lat": 41.1128,
+            "lng": 20.7889
+        },
+        "description": "A 13th-century Macedonian Orthodox church overlooking Lake Ohrid, famous for its cliffside location and Byzantine architecture.",
+        "tags": [ "church", "byzantine", "unesco" ],
+        "source": "Wikipedia"
+    },
+    {
+        "id": "site_006",
+        "name": "Kokino Megalithic Observatory",
+        "type": "Archaeological Site",
+        "location": {
+            "city": "Staro Nagoričane",
+            "lat": 42.2608,
+            "lng": 21.9503
+        },
+        "description": "A Bronze Age archaeological site and ancient observatory, ranked among the oldest observatories in the world. Known as 'the Macedonian Stonehenge'.",
+        "tags": [ "archaeology", "bronze age", "observatory" ],
+        "source": "NASA"
+    },
+    {
+        "id": "site_007",
+        "name": "Millennium Cross",
+        "type": "Monument",
+        "location": {
+            "city": "Skopje",
+            "lat": 41.9583,
+            "lng": 21.4278
+        },
+        "description": "A 66-meter high cross situated on the top of Mount Vodno, overlooking Skopje. Built to commemorate 2000 years of Christianity.",
+        "tags": [ "cross", "monument", "skopje" ],
+        "source": "Visit Skopje"
+    },
+    {
+        "id": "site_008",
+        "name": "Pelister National Park",
+        "type": "National Park",
+        "location": {
+            "city": "Bitola",
+            "lat": 41.0128,
+            "lng": 21.2325
+        },
+        "description": "The oldest national park in North Macedonia, located on Baba Mountain. Famous for its Molika pine forests and two glacial lakes known as 'Pelister's Eyes'.",
+        "tags": [ "national park", "mountain", "nature" ],
+        "source": "Macedonian Parks"
+    },
+    {
+        "id": "site_009",
+        "name": "Heraclea Lyncestis",
+        "type": "Archaeological Site",
+        "location": {
+            "city": "Bitola",
+            "lat": 41.0297,
+            "lng": 21.3347
+        },
+        "description": "An ancient city founded by Philip II of Macedon in the 4th century BC. Known for well-preserved Roman mosaics and ruins.",
+        "tags": [ "archaeology", "roman", "mosaics" ],
+        "source": "Wikipedia"
+    },
+    {
+        "id": "site_010",
+        "name": "Mavrovo Lake",
+        "type": "Lake",
+        "location": {
+            "city": "Mavrovo",
+            "lat": 41.7000,
+            "lng": 20.7500
+        },
+        "description": "A man-made lake within Mavrovo National Park, surrounded by mountains and popular for skiing, fishing, and the submerged church of St. Nicholas.",
+        "tags": [ "lake", "mavrovo", "nature" ],
+        "source": "Visit Mavrovo"
+    }
+]

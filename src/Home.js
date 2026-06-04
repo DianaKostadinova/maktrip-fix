@@ -17,7 +17,10 @@ function Home() {
     const [showProfile, setShowProfile] = useState(false);
     const [searchInput, setSearchInput] = useState('');
     const [suggestions, setSuggestions] = useState([]);
-
+    useEffect(() => {
+        document.title = "Discover Macedonia";
+    }, []);
+   
     const pages = [
         { name: "Travel Planner", route: "/AIPlanner", keywords: ["plan", "trip", "generate", "itinerary", "planner", "travel", "what to do in macedonia", "activities", "skopje", "ohrid"] },
         { name: "Monuments & Places", route: "/Places", keywords: ["monument", "landmark", "places", "explore", "location", "visit", "Skopje", "Ohrid"] },
@@ -96,13 +99,9 @@ function Home() {
 
         <>
             <header className="topbar">
-                <div className="logo-mask-wrapper">
-                    <svg viewBox="0 0 500 100" className="logo-mask">
-                        <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle">
-                            MakTrip
-                        </text>
-                    </svg>
-                </div>
+                <Link to="/" className="brand-logo">
+                    Discover<span>Macedonia</span>
+                </Link>
 
                 <div className="top-actions">
                     <div className="search-wrapper">
@@ -146,8 +145,16 @@ function Home() {
 
             <div className="main-wrapper">
                 <div className="hero">
-                    <video autoPlay loop muted playsInline className="hero-video">
-                        <source src="/pozadinaa.mp4" type="video/mp4" />
+                    <video
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        preload="metadata"
+                        poster="/background.jpg"
+                        className="hero-video"
+                    >
+                        <source src="/pozadina.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
 
