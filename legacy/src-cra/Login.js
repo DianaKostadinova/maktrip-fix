@@ -22,7 +22,7 @@ export default function Login({ onLogin }) {
     const [isUploading, setIsUploading] = useState(false);
     const [currentUser, setCurrentUser] = useState(null);
 
-    const IMGBB_API_KEY = '83a7bd6033a411dad73d2335d0885e45';  
+    const IMGBB_API_KEY = process.env.REACT_APP_IMGBB_API_KEY; // key removed from source  
     useEffect(() => {
         const unsubscribe = auth.onAuthStateChanged((user) => {
             setCurrentUser(user);
