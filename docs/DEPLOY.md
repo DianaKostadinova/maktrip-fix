@@ -2,7 +2,7 @@
 
 | Piece | Free host | Address you get |
 |---|---|---|
-| Website (PWA) | **Cloudflare Pages** | `https://<name>.pages.dev` |
+| Website (PWA) | **Vercel** (Hobby) | `https://<project>.vercel.app` |
 | Spring API (news) | **Render** (free web service, Docker) | `https://<name>.onrender.com` |
 | Accounts, saved trips, chat | **Firebase** (Spark plan) | already set up |
 | AI trip planner | off — shows "Coming soon" (`PLANNER_ENABLED=false`) | — |
@@ -21,7 +21,7 @@ Total time: about 30 minutes.
 
 ## 0. Put the code on GitHub
 
-Cloudflare and Render deploy straight from your GitHub repository.
+Vercel and Render deploy straight from your GitHub repository.
 
 ```bash
 git add -A
@@ -51,56 +51,45 @@ In https://console.firebase.google.com → your project:
 2. **New → Blueprint** → choose your repository. Render reads `render.yaml` and creates
    `discover-macedonia-api` (Docker, free plan, Frankfurt).
 3. When asked for **`CORS_ORIGINS`**, enter your future website address, e.g.
-   `https://discover-macedonia.pages.dev` (you can fix it later under *Environment*).
+   `https://<project>.vercel.app` (you can fix it later under *Environment*).
 4. Wait for the first deploy (~5 min). Open
    `https://<your-api>.onrender.com/api/health` — you should see `"status":"UP"`.
 
 Copy the API address; you need it next.
 
-## 3. The website on Cloudflare Pages
+## 3. The website on Vercel
 
-1. Sign up at https://dash.cloudflare.com → **Workers & Pages → Create → Pages →
-   Connect to Git** → choose your repository.
-2. Build settings:
-   - **Framework preset**: None (or Vite)
-   - **Build command**: `npm ci && npm run build`
-   - **Build output directory**: `dist`
-3. **Environment variables** (Production):
+The repository is already connected to Vercel. `vercel.json` tells Vercel how to
+build the new app (Vite → `dist`), so the build settings in the dashboard don't matter.
 
-   | Name | Value |
-   |---|---|
-   | `NODE_VERSION` | `24` |
-   | `VITE_API_BASE_URL` | `https://<your-api>.onrender.com` |
-   | `VITE_PLANNER_ENABLED` | `false` |
-   | `VITE_FIREBASE_API_KEY` | from Firebase |
-   | `VITE_FIREBASE_AUTH_DOMAIN` | from Firebase |
-   | `VITE_FIREBASE_PROJECT_ID` | from Firebase |
-   | `VITE_FIREBASE_STORAGE_BUCKET` | from Firebase |
-   | `VITE_FIREBASE_MESSAGING_SENDER_ID` | from Firebase |
-   | `VITE_FIREBASE_APP_ID` | from Firebase |
-   | `VITE_IMGBB_API_KEY` | optional (avatar uploads) — a **new** key |
+Vercel → your project → **Settings → Environment Variables** (Production):
 
-4. **Save and Deploy**. You get `https://<project>.pages.dev`.
-   Pages serves `index.html` for every route, and `public/_headers` sets caching so
-   app updates reach users immediately.
+| Name | Value |
+|---|---|
+| `VITE_API_BASE_URL` | `https://<your-api>.onrender.com` |
+| `VITE_PLANNER_ENABLED` | `false` |
+| `VITE_FIREBASE_API_KEY` … `VITE_FIREBASE_APP_ID` | from Firebase (the old `REACT_APP_FIREBASE_*` names also work) |
+
+Then **Deployments → latest → Redeploy**. Your address is under **Settings → Domains**
+(e.g. `https://<project>.vercel.app`).
 
 ## 4. Connect the pieces
 
 1. **Firebase → Authentication → Settings → Authorized domains → Add domain**:
-   `<project>.pages.dev` (and your own domain if you add one). Without this, sign-in fails.
+   `<project>.vercel.app` (and your own domain if you add one). Without this, sign-in fails.
 2. **Render → your API → Environment**: make sure `CORS_ORIGINS` exactly matches the
-   Pages address (no trailing slash). Save → Render redeploys.
+   Vercel address (no trailing slash). Save → Render redeploys.
 
 Open the site, sign up, save a place, post in Community.
 
 ## Updating
 
-Push to GitHub — Cloudflare and Render both rebuild automatically. Installed PWAs
+Push to GitHub — Vercel and Render both rebuild automatically. Installed PWAs
 show "A new version is available".
 
 ## Optional: your own domain (free on both)
 
-- Cloudflare Pages → your project → **Custom domains**.
+- Vercel → your project → **Settings → Domains**.
 - Render → your service → **Settings → Custom domains** (e.g. `api.yourdomain.com`),
   then update `VITE_API_BASE_URL`, `CORS_ORIGINS` and Firebase authorized domains.
 

@@ -35,7 +35,7 @@ Everything except the planner and news works without the API, and everything exc
 
 ## Deploying
 
-**Free:** website on Cloudflare Pages, API on Render, accounts and chat on Firebase. Step-by-step guide: **[docs/DEPLOY.md](docs/DEPLOY.md)**. A one-server Docker setup with automatic HTTPS is there too, for later.
+**Free:** website on Vercel, API on Render, accounts and chat on Firebase. Step-by-step guide: **[docs/DEPLOY.md](docs/DEPLOY.md)**. A one-server Docker setup with automatic HTTPS is there too, for later.
 
 ## Local development
 

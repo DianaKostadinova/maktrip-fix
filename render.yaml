@@ -1,6 +1,6 @@
 # Render Blueprint — the Spring API on Render's free plan.
 # Render dashboard → New → Blueprint → pick this repo. Then set CORS_ORIGINS to
-# your website's address (e.g. https://discover-macedonia.pages.dev).
+# your website's address (e.g. https://<project>.vercel.app).
 #
 # Free instances sleep after ~15 min idle and take ~1 min to wake; the website
 # copes with that (news hides/serves cached headlines until the API is up).
