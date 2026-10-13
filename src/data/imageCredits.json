@@ -1,0 +1,394 @@
+{
+  "matka-canyon": {
+    "src": "/images/places/hd/matka-canyon.webp",
+    "file": "File:Matka_Canyon_Skopje_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Matka_Canyon_Skopje_3.jpg",
+    "author": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "vodno-cross": {
+    "src": "/images/places/hd/vodno-cross.webp",
+    "file": "File:Aerial_View_of_The_Millennium_Cross.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_View_of_The_Millennium_Cross.jpg",
+    "author": "Boredjohnn",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "skopje-fortress": {
+    "src": "/images/places/hd/skopje-fortress.webp",
+    "file": "File:KaleFortress-Skopje1.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:KaleFortress-Skopje1.JPG",
+    "author": "Yemc",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "old-bazaar": {
+    "src": "/images/places/hd/old-bazaar.webp",
+    "file": "File:Поглед_кон_Сули_Ан_и_Старата_скопска_чаршија.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D0%B3%D0%BB%D0%B5%D0%B4_%D0%BA%D0%BE%D0%BD_%D0%A1%D1%83%D0%BB%D0%B8_%D0%90%D0%BD_%D0%B8_%D0%A1%D1%82%D0%B0%D1%80%D0%B0%D1%82%D0%B0_%D1%81%D0%BA%D0%BE%D0%BF%D1%81%D0%BA%D0%B0_%D1%87%D0%B0%D1%80%D1%88%D0%B8%D1%98%D0%B0.JPG",
+    "author": "Stotosenik",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "kokino": {
+    "src": "/images/places/hd/kokino.webp",
+    "file": "File:Megalithic_Observatory_Kokino.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Megalithic_Observatory_Kokino.jpg",
+    "author": "US Government",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "mavrovo": {
+    "src": "/images/places/hd/mavrovo.webp",
+    "file": "File:Мавровско_езеро.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D0%B2%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE_%D0%B5%D0%B7%D0%B5%D1%80%D0%BE.jpg",
+    "author": "Novica Nakov",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "st-naum": {
+    "src": "/images/places/hd/st-naum.webp",
+    "file": "File:Saint_Naum_Monastery_(манастир_Свети_Наум_код_Охрида,_Македонија).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Naum_Monastery_(%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80_%D0%A1%D0%B2%D0%B5%D1%82%D0%B8_%D0%9D%D0%B0%D1%83%D0%BC_%D0%BA%D0%BE%D0%B4_%D0%9E%D1%85%D1%80%D0%B8%D0%B4%D0%B0,_%D0%9C%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D0%B8%D1%98%D0%B0).jpg",
+    "author": "Petar Milošević",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "kaneo": {
+    "src": "/images/places/hd/kaneo.webp",
+    "file": "File:Church_of_St._John_at_Kaneo_6.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Church_of_St._John_at_Kaneo_6.jpg",
+    "author": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "samuels-fortress": {
+    "src": "/images/places/hd/samuels-fortress.webp",
+    "file": "File:Samuel's_Fortress_Ohrid_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Samuel%27s_Fortress_Ohrid_1.jpg",
+    "author": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "galicica": {
+    "src": "/images/places/hd/galicica.webp",
+    "file": "File:Galichitsa.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Galichitsa.jpg",
+    "author": "Apcbg",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "pelister": {
+    "src": "/images/places/hd/pelister.webp",
+    "file": "File:Pelister_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pelister_01.jpg",
+    "author": "Ksenija Putilin",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "sirok-sokak": {
+    "src": "/images/places/hd/sirok-sokak.webp",
+    "file": "File:Bitola_2007.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Bitola_2007.JPG",
+    "author": "Revizionist",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "tikves": {
+    "src": "/images/places/hd/tikves.webp",
+    "file": "File:Lake_Tikves_coast.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Lake_Tikves_coast.JPG",
+    "author": "Pero Veliki",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "treskavec": {
+    "src": "/images/places/hd/treskavec.webp",
+    "file": "File:Treskavec_Monastery.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Treskavec_Monastery.jpg",
+    "author": "Geoff",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "pastrmajlija": {
+    "src": "/images/food/hd/pastrmajlija.webp",
+    "file": "File:PastrmajlijaAngela.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:PastrmajlijaAngela.JPG",
+    "author": "Slavica Panova",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "tavche-gravche": {
+    "src": "/images/food/hd/tavche-gravche.webp",
+    "file": "File:Грав_во_тава(тафче_гравче)_(3).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%93%D1%80%D0%B0%D0%B2_%D0%B2%D0%BE_%D1%82%D0%B0%D0%B2%D0%B0(%D1%82%D0%B0%D1%84%D1%87%D0%B5_%D0%B3%D1%80%D0%B0%D0%B2%D1%87%D0%B5)_(3).jpg",
+    "author": "Oliver Manev",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "ajvar": {
+    "src": "/images/food/hd/ajvar.webp",
+    "file": "File:Ajvar1_bright.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ajvar1_bright.jpg",
+    "author": "Off-shell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "simit": {
+    "src": "/images/food/hd/simit.webp",
+    "file": "File:Simit-2x.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Simit-2x.JPG",
+    "author": "Unknown",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "sharska": {
+    "src": "/images/food/hd/sharska.webp",
+    "file": "File:Pleskavitsa.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Pleskavitsa.JPG",
+    "author": "Biso",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "sarma": {
+    "src": "/images/food/hd/sarma.webp",
+    "file": "File:Yaprak_sarma,_Kayseri_style.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Yaprak_sarma,_Kayseri_style.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "mekica": {
+    "src": "/images/food/hd/mekica.webp",
+    "file": "File:Mekici_and_jam.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Mekici_and_jam.JPG",
+    "author": "Biso (Biser Todorov)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "tetovo-waterfalls": {
+    "src": "/images/places/hd/tetovo-waterfalls.webp",
+    "file": "File:20090715_Tetovo_view_from_the_mountain.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:20090715_Tetovo_view_from_the_mountain.jpg",
+    "author": "Ggia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "stone-bridge": {
+    "src": "/images/places/hd/stone-bridge.webp",
+    "file": "File:08_Skopje.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:08_Skopje.jpg",
+    "author": "Делфина",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "mother-teresa-house": {
+    "src": "/images/places/hd/mother-teresa-house.webp",
+    "file": "File:Memorial_House_of_Mother_Teresa.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Memorial_House_of_Mother_Teresa.jpg",
+    "author": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "skopje-aqueduct": {
+    "src": "/images/places/hd/skopje-aqueduct.webp",
+    "file": "File:Аквадукт,_Скопје,_2014.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BA%D0%B2%D0%B0%D0%B4%D1%83%D0%BA%D1%82,_%D0%A1%D0%BA%D0%BE%D0%BF%D1%98%D0%B5,_2014.jpg",
+    "author": "Darkocv",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "ohrid-ancient-theatre": {
+    "src": "/images/places/hd/ohrid-ancient-theatre.webp",
+    "file": "File:Ancient_Macedonian_Theatre_of_Ohrid_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ancient_Macedonian_Theatre_of_Ohrid_3.jpg",
+    "author": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "plaoshnik": {
+    "src": "/images/places/hd/plaoshnik.webp",
+    "file": "File:Plaošnik_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Plao%C5%A1nik_01.jpg",
+    "author": "This illustration was made by Rašo. An email to Rašo would be appreciated too.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "golem-grad": {
+    "src": "/images/places/hd/golem-grad.webp",
+    "file": "File:Prespa-ostrov.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Prespa-ostrov.jpg",
+    "author": "Bjankuloski06 at Macedonian Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": null
+  },
+  "vevcani": {
+    "src": "/images/places/hd/vevcani.webp",
+    "file": "File:Vevcani-panorama.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vevcani-panorama.jpg",
+    "author": "MacedonianBoy at English Wikipedia",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "lake-dojran": {
+    "src": "/images/places/hd/lake-dojran.webp",
+    "file": "File:Star_Dojran_in_2012_(2).JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Star_Dojran_in_2012_(2).JPG",
+    "author": "This illustration was made by Rašo. An email to Rašo would be appreciated too.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "demir-kapija": {
+    "src": "/images/places/hd/demir-kapija.webp",
+    "file": "File:Demir_Kapija_115.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Demir_Kapija_115.JPG",
+    "author": "This illustration was made by Rašo. An email to Rašo would be appreciated too.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "kuklica": {
+    "src": "/images/places/hd/kuklica.webp",
+    "file": "File:Kuklici.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kuklici.jpg",
+    "author": "ДАБ",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "lesnovo": {
+    "src": "/images/places/hd/lesnovo.webp",
+    "file": "File:Св.Архангел_Михаил.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B2.%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB.JPG",
+    "author": "Tosee",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "zrze": {
+    "src": "/images/places/hd/zrze.webp",
+    "file": "File:Monastery_view_zrze.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Monastery_view_zrze.jpg",
+    "author": "BuktopMKD",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "popova-shapka": {
+    "src": "/images/places/hd/popova-shapka.webp",
+    "file": "File:Поглед_на_Попова_Шапка_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D0%B3%D0%BB%D0%B5%D0%B4_%D0%BD%D0%B0_%D0%9F%D0%BE%D0%BF%D0%BE%D0%B2%D0%B0_%D0%A8%D0%B0%D0%BF%D0%BA%D0%B0_2.jpg",
+    "author": "Деан Лазаревски",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "korab": {
+    "src": "/images/places/hd/korab.webp",
+    "file": "File:Velky_Korab_2011.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Velky_Korab_2011.jpg",
+    "author": "Pavouk",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "duf-waterfall": {
+    "src": "/images/places/hd/duf-waterfall.webp",
+    "file": "File:Викиекспедиција_Река_58.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B8%D0%BA%D0%B8%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D1%98%D0%B0_%D0%A0%D0%B5%D0%BA%D0%B0_58.jpg",
+    "author": "Ehrlich91",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "selsko-meso": {
+    "src": "/images/food/hd/selsko-meso.webp",
+    "file": "File:Традиционално_Селско_Месо.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%A2%D1%80%D0%B0%D0%B4%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%BE_%D0%A1%D0%B5%D0%BB%D1%81%D0%BA%D0%BE_%D0%9C%D0%B5%D1%81%D0%BE.jpg",
+    "author": "Mila.atkovska",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "turli-tava": {
+    "src": "/images/food/hd/turli-tava.webp",
+    "file": "File:Турлитава_во_традиционална,_рачно_изработена_земјена_тава._01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%A2%D1%83%D1%80%D0%BB%D0%B8%D1%82%D0%B0%D0%B2%D0%B0_%D0%B2%D0%BE_%D1%82%D1%80%D0%B0%D0%B4%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%B0,_%D1%80%D0%B0%D1%87%D0%BD%D0%BE_%D0%B8%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5%D0%BD%D0%B0_%D0%B7%D0%B5%D0%BC%D1%98%D0%B5%D0%BD%D0%B0_%D1%82%D0%B0%D0%B2%D0%B0._01.jpg",
+    "author": "Anagrkovska",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "ohrid-trout": {
+    "src": "/images/food/hd/ohrid-trout.webp",
+    "file": "File:Ohridforelle_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ohridforelle_1.jpg",
+    "author": "Albinfo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "shopska": {
+    "src": "/images/food/hd/shopska.webp",
+    "file": "File:Chopska.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chopska.jpg",
+    "author": "Popo le Chien",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "pindjur": {
+    "src": "/images/food/hd/pindjur.webp",
+    "file": "File:Pindjur2.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Pindjur2.JPG",
+    "author": "Off-shell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "boza": {
+    "src": "/images/food/hd/boza.webp",
+    "file": "File:Boza.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Boza.jpg",
+    "author": "FoPen",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "vranec": {
+    "src": "/images/food/hd/vranec.webp",
+    "file": "File:Macedonian_Vranec.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Macedonian_Vranec.jpg",
+    "author": "User:Agne27",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "markov-monastery": {
+    "src": "/images/places/hd/markov-monastery.webp",
+    "file": "File:Marko-Monastery-church.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Marko-Monastery-church.jpg",
+    "author": "Dimitar Georgievski from Skopje, Macedonia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "stobi": {
+    "src": "/images/places/hd/stobi.webp",
+    "file": "File:Stobi_aerial.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Stobi_aerial.jpg",
+    "author": "Jmirons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "st-panteleimon-nerezi": {
+    "src": "/images/places/hd/st-panteleimon-nerezi.webp",
+    "file": "File:St._Pantelejmon_Church_03.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Pantelejmon_Church_03.jpg",
+    "author": "Richard Schofield",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "kebapi": {
+    "src": "/images/food/hd/kebapi.webp",
+    "file": "File:Cevapi_s_kajmakom.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cevapi_s_kajmakom.jpg",
+    "author": "Christian Paul from Vancouver, Canada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "baklava": {
+    "src": "/images/food/hd/baklava.webp",
+    "file": "File:Baklava(1).png",
+    "page": "https://commons.wikimedia.org/wiki/File:Baklava(1).png",
+    "author": "Sakaman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+}

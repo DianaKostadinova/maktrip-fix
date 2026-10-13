@@ -1,0 +1,16 @@
+**/node_modules
+legacy
+dist
+dev-dist
+coverage
+backend/build
+backend/.gradle
+.git
+.github
+.claude
+.idea
+.vscode
+.env
+.env.*
+!.env.example
+*.log

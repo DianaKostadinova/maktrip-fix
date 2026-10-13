@@ -1,0 +1,38 @@
+{
+  "warrior": {
+    "file": "File:Skopje - Warrior on a Horse (9451253725).jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Skopje_-_Warrior_on_a_Horse_(9451253725).jpg",
+    "author": "Andrzej Wójtowicz from Poznań, Poland",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "src": "/images/ring/warrior.webp",
+    "modified": "Background removed, cropped"
+  },
+  "porta": {
+    "file": "File:Porta Makedonija 02.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Porta_Makedonija_02.JPG",
+    "author": "Rašo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "src": "/images/ring/porta.webp",
+    "modified": "Background removed, cropped"
+  },
+  "kaneo": {
+    "file": "File:Church of St. John at Kaneo 5.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Church_of_St._John_at_Kaneo_5.jpg",
+    "author": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "src": "/images/ring/kaneo.webp",
+    "modified": "Background removed, cropped"
+  },
+  "cross": {
+    "file": "File:Millennium Cross Skopje 1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Millennium_Cross_Skopje_1.jpg",
+    "author": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "src": "/images/ring/cross.webp",
+    "modified": "Background removed, cropped"
+  }
+}

@@ -1,0 +1,29 @@
+rules_version = '2';
+
+// Suggested rules for the data this app stores. Deploy with:
+//   firebase deploy --only firestore:rules
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Each user can read and write only their own document
+    // (saved places, trip helper state, planner draft, profile prefs).
+    match /users/{uid} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+    }
+
+    // Community chat: anyone signed in can read; you can only post as yourself,
+    // short messages, into a known room, with a server timestamp. No edits.
+    match /messages/{id} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.text is string
+        && request.resource.data.text.size() > 0
+        && request.resource.data.text.size() <= 500
+        && request.resource.data.category in ['meetup', 'experiences', 'help', 'recommendations']
+        && request.resource.data.timestamp == request.time;
+      allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
+      allow update: if false;
+    }
+  }
+}

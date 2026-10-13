@@ -1,0 +1,1291 @@
+{
+  "eurToMkd": 61.5,
+  "cities": [
+    {
+      "id": "skopje",
+      "name": "Skopje",
+      "region": "Skopje",
+      "days": "2–3 days",
+      "tagline": "Capital of statues, bazaars and late nights",
+      "highlights": [
+        "Old Bazaar & Kale Fortress",
+        "Matka Canyon (half-day)",
+        "Millennium Cross on Vodno",
+        "Debar Maalo bars & cafés",
+        "Museum of the Macedonian Struggle"
+      ],
+      "gettingThere": "International airport (SKP) 20 km east; buses to every city from the main station.",
+      "lat": 41.9981,
+      "lng": 21.4254
+    },
+    {
+      "id": "ohrid",
+      "name": "Ohrid",
+      "region": "Ohrid & Prespa",
+      "days": "3–4 days",
+      "tagline": "UNESCO lake town — the country’s jewel",
+      "highlights": [
+        "Church of St. John at Kaneo",
+        "Samuel’s Fortress",
+        "Boat to St. Naum springs",
+        "Bay of Bones",
+        "Galičica ridge viewpoint"
+      ],
+      "gettingThere": "~3 h by bus from Skopje; Ohrid airport (OHD) has seasonal flights.",
+      "lat": 41.1172,
+      "lng": 20.8016
+    },
+    {
+      "id": "bitola",
+      "name": "Bitola",
+      "region": "Pelagonia",
+      "days": "1–2 days",
+      "tagline": "City of consuls, cafés and Heraclea",
+      "highlights": [
+        "Širok Sokak promenade",
+        "Heraclea Lyncestis",
+        "Pelister National Park",
+        "Clock Tower & Old Bazaar"
+      ],
+      "gettingThere": "~2.5 h by bus or train from Skopje; 1 h from Ohrid.",
+      "lat": 41.0314,
+      "lng": 21.3347
+    },
+    {
+      "id": "prilep",
+      "name": "Prilep",
+      "region": "Pelagonia",
+      "days": "1 day",
+      "tagline": "Tobacco town under King Marko’s towers",
+      "highlights": [
+        "Markovi Kuli",
+        "Treskavec Monastery",
+        "Prilep Beer Fest (July)"
+      ],
+      "gettingThere": "~2 h by bus from Skopje, 45 min from Bitola.",
+      "lat": 41.3451,
+      "lng": 21.555
+    },
+    {
+      "id": "struga",
+      "name": "Struga",
+      "region": "Ohrid & Prespa",
+      "days": "1 day",
+      "tagline": "Where the Black Drin leaves Lake Ohrid",
+      "highlights": [
+        "Riverside promenade",
+        "Struga Poetry Evenings (Aug)",
+        "Vevčani village & springs"
+      ],
+      "gettingThere": "20 min by minibus from Ohrid.",
+      "lat": 41.1778,
+      "lng": 20.6783
+    },
+    {
+      "id": "kratovo",
+      "name": "Kratovo",
+      "region": "East",
+      "days": "Day trip",
+      "tagline": "A medieval town inside a volcano",
+      "highlights": [
+        "Stone bridges & towers",
+        "Kuklica stone dolls",
+        "Kokino Observatory (on the way)"
+      ],
+      "gettingThere": "~2 h by bus from Skopje.",
+      "lat": 42.0781,
+      "lng": 22.1808
+    },
+    {
+      "id": "mavrovo",
+      "name": "Mavrovo",
+      "region": "West",
+      "days": "1–2 days",
+      "tagline": "Ski slopes, a sunken church and mountain villages",
+      "highlights": [
+        "Submerged church of St. Nicholas",
+        "Zare Lazarevski ski centre",
+        "Galičnik village",
+        "St. Jovan Bigorski Monastery"
+      ],
+      "gettingThere": "~2 h by bus or car from Skopje.",
+      "lat": 41.6667,
+      "lng": 20.7333
+    },
+    {
+      "id": "tikves",
+      "name": "Tikveš (Kavadarci & Negotino)",
+      "region": "Central",
+      "days": "1 day",
+      "tagline": "Wine country",
+      "highlights": [
+        "Winery tours & tastings",
+        "Stobi Roman city",
+        "Tikveš Grape Harvest (Sep)"
+      ],
+      "gettingThere": "~1.5 h by car from Skopje; arrange a driver for tastings.",
+      "lat": 41.4333,
+      "lng": 22.0167
+    }
+  ],
+  "attractions": [
+    {
+      "id": "alexander-monument",
+      "name": "Alexander the Great Monument",
+      "location": "Skopje",
+      "region": "Skopje",
+      "category": "Monument",
+      "description": "Iconic 22-metre bronze statue and fountain in the middle of Macedonia Square.",
+      "howToGet": "In the heart of Skopje. Walk from anywhere downtown or take any bus to the main square.",
+      "cost": "Free",
+      "duration": "30 min",
+      "access": "easy",
+      "lat": 41.9959,
+      "lng": 21.4314
+    },
+    {
+      "id": "matka-canyon",
+      "name": "Matka Canyon",
+      "location": "Skopje",
+      "region": "Skopje",
+      "category": "Nature",
+      "description": "Emerald canyon with kayaking, boat rides to Vrelo Cave and medieval monasteries.",
+      "howToGet": "Bus #60 from the city centre (45 min) or taxi (20 min, ~500 MKD). Last bus back around 8 PM.",
+      "cost": "Boat ~400 MKD",
+      "duration": "Half day",
+      "access": "easy",
+      "lat": 41.9479,
+      "lng": 21.2981
+    },
+    {
+      "id": "vodno-cross",
+      "name": "Mount Vodno & Millennium Cross",
+      "location": "Skopje",
+      "region": "Skopje",
+      "category": "Nature",
+      "description": "66-metre illuminated cross on Mount Vodno with sweeping views over the city.",
+      "howToGet": "Bus #25 to Sredno Vodno, then the cable car (~200 MKD return). Or hike up in 2–3 hours.",
+      "cost": "Cable car ~200 MKD",
+      "duration": "3–4 h",
+      "access": "easy",
+      "lat": 41.9653,
+      "lng": 21.3981
+    },
+    {
+      "id": "skopje-fortress",
+      "name": "Skopje Fortress (Kale)",
+      "location": "Skopje",
+      "region": "Skopje",
+      "category": "Historical",
+      "description": "6th-century fortress walls overlooking the Vardar river and the Old Bazaar.",
+      "howToGet": "15-minute walk from Macedonia Square or the Old Bazaar. Open sunrise to sunset.",
+      "cost": "Free",
+      "duration": "1–2 h",
+      "access": "easy",
+      "lat": 42.0008,
+      "lng": 21.4333
+    },
+    {
+      "id": "old-bazaar",
+      "name": "Old Bazaar (Stara Čaršija)",
+      "location": "Skopje",
+      "region": "Skopje",
+      "category": "Cultural",
+      "description": "One of the largest Ottoman-era bazaars in the Balkans — mosques, hammams, tea and kebapi.",
+      "howToGet": "5-minute walk north from Macedonia Square across the Stone Bridge.",
+      "cost": "Free",
+      "duration": "2–3 h",
+      "access": "easy",
+      "lat": 42,
+      "lng": 21.4367
+    },
+    {
+      "id": "city-park",
+      "name": "City Park (Gradski Park)",
+      "location": "Skopje",
+      "region": "Skopje",
+      "category": "Park",
+      "description": "Large leafy park along the Vardar with cafés, playgrounds and sports fields.",
+      "howToGet": "10-minute walk from Macedonia Square, or buses #2, #22, #24.",
+      "cost": "Free",
+      "duration": "1–2 h",
+      "access": "easy",
+      "lat": 41.9894,
+      "lng": 21.4191
+    },
+    {
+      "id": "kozjak-lake",
+      "name": "Kozjak Lake",
+      "location": "Skopje Region",
+      "region": "Skopje",
+      "category": "Nature",
+      "description": "Hidden emerald reservoir that’s perfect for a swim and a picnic.",
+      "howToGet": "Drive ~45 min towards Volkovo, then a steep 20-min hike. No public transport — GPS essential. Best April–October.",
+      "cost": "Free",
+      "duration": "Full day",
+      "access": "hard",
+      "lat": 42.1547,
+      "lng": 21.3289
+    },
+    {
+      "id": "markov-monastery",
+      "name": "Markov Monastery",
+      "location": "Skopje",
+      "region": "Skopje",
+      "category": "Religious",
+      "description": "14th-century monastery with remarkably well-preserved frescoes.",
+      "howToGet": "In Markova Sušica village, ~20 min drive from Skopje. Car or taxi (~600 MKD one way).",
+      "cost": "Free",
+      "duration": "1–2 h",
+      "access": "moderate",
+      "lat": 41.9186,
+      "lng": 21.5183
+    },
+    {
+      "id": "st-naum",
+      "name": "St. Naum Monastery",
+      "location": "Ohrid",
+      "region": "Ohrid & Prespa",
+      "category": "Religious",
+      "description": "10th-century monastery on the lake shore with peacocks and crystal springs.",
+      "howToGet": "30 km south of Ohrid. Boat tour (~1500 MKD), local bus (~150 MKD, hourly in summer) or taxi (~1000 MKD).",
+      "cost": "~150 MKD",
+      "duration": "Half day",
+      "access": "easy",
+      "lat": 40.9134,
+      "lng": 20.7403
+    },
+    {
+      "id": "kaneo",
+      "name": "Church of St. John at Kaneo",
+      "location": "Ohrid",
+      "region": "Ohrid & Prespa",
+      "category": "Religious",
+      "description": "The most photographed church in the country, perched on a cliff above Lake Ohrid.",
+      "howToGet": "20-min scenic walk along the Ohrid boardwalk, or a 5-min taxi from the centre.",
+      "cost": "~100 MKD",
+      "duration": "1–2 h",
+      "access": "easy",
+      "lat": 41.1097,
+      "lng": 20.7881
+    },
+    {
+      "id": "samuels-fortress",
+      "name": "Samuel's Fortress",
+      "location": "Ohrid",
+      "region": "Ohrid & Prespa",
+      "category": "Historical",
+      "description": "10th-century fortress crowning Ohrid with panoramic lake views.",
+      "howToGet": "Steep 15-min climb from the old town. Open 9 AM – 7 PM.",
+      "cost": "~100 MKD",
+      "duration": "1–2 h",
+      "access": "easy",
+      "lat": 41.1131,
+      "lng": 20.795
+    },
+    {
+      "id": "bay-of-bones",
+      "name": "Bay of Bones Museum",
+      "location": "Ohrid",
+      "region": "Ohrid & Prespa",
+      "category": "Museum",
+      "description": "Reconstructed prehistoric pile-dwelling village built over the water.",
+      "howToGet": "15-min drive south of Ohrid. Bus to Peštani, then a 10-min walk.",
+      "cost": "~100 MKD",
+      "duration": "1 h",
+      "access": "easy",
+      "lat": 41.0367,
+      "lng": 20.7919
+    },
+    {
+      "id": "galicica",
+      "name": "Galičica National Park",
+      "location": "Ohrid–Prespa",
+      "region": "Ohrid & Prespa",
+      "category": "Nature",
+      "description": "Mountain ridge between lakes Ohrid and Prespa — you can see both from the top.",
+      "howToGet": "Best by car; main entrance ~20 min from Ohrid. Guided hikes available.",
+      "cost": "Small park fee",
+      "duration": "Half day",
+      "access": "moderate",
+      "lat": 40.9478,
+      "lng": 20.8339
+    },
+    {
+      "id": "heraclea",
+      "name": "Heraclea Lyncestis",
+      "location": "Bitola",
+      "region": "Pelagonia",
+      "category": "Archaeological",
+      "description": "Ancient city founded by Philip II of Macedon, famous for its floor mosaics.",
+      "howToGet": "2 km south of Bitola centre. 30-min walk or ~150 MKD taxi.",
+      "cost": "~120 MKD",
+      "duration": "2–3 h",
+      "access": "easy",
+      "lat": 41.0111,
+      "lng": 21.3425
+    },
+    {
+      "id": "pelister",
+      "name": "Pelister National Park",
+      "location": "Bitola",
+      "region": "Pelagonia",
+      "category": "Nature",
+      "description": "The country’s oldest national park, home to the endemic Molika pine and glacial lakes.",
+      "howToGet": "15 km from Bitola. Drive or taxi (~500 MKD). Mountain huts available.",
+      "cost": "Free",
+      "duration": "Full day",
+      "access": "moderate",
+      "lat": 40.9833,
+      "lng": 21.2
+    },
+    {
+      "id": "sirok-sokak",
+      "name": "Širok Sokak",
+      "location": "Bitola",
+      "region": "Pelagonia",
+      "category": "Cultural",
+      "description": "Bitola’s elegant pedestrian street of old consulates, cafés and people-watching.",
+      "howToGet": "Main pedestrian street of Bitola; all city buses stop nearby.",
+      "cost": "Free",
+      "duration": "2 h",
+      "access": "easy",
+      "lat": 41.0322,
+      "lng": 21.3344
+    },
+    {
+      "id": "kokino",
+      "name": "Kokino Observatory",
+      "location": "Kumanovo",
+      "region": "East",
+      "category": "Archaeological",
+      "description": "3,800-year-old megalithic observatory — one of the oldest in the world.",
+      "howToGet": "Near Staro Nagoričane, ~30 km from Kumanovo. Car needed; the last 5 km are rough.",
+      "cost": "Free",
+      "duration": "1–2 h",
+      "access": "moderate",
+      "lat": 42.2631,
+      "lng": 21.9544
+    },
+    {
+      "id": "smolare",
+      "name": "Smolare Waterfall",
+      "location": "Strumica",
+      "region": "East",
+      "category": "Nature",
+      "description": "The highest waterfall in the country, tumbling almost 40 metres.",
+      "howToGet": "From Novo Selo follow signs to Smolare village (15 km), then a 30-min marked trail.",
+      "cost": "Free",
+      "duration": "Half day",
+      "access": "moderate",
+      "lat": 41.3656,
+      "lng": 22.9136
+    },
+    {
+      "id": "kratovo",
+      "name": "Kratovo Stone Bridges",
+      "location": "Kratovo",
+      "region": "East",
+      "category": "Historical",
+      "description": "Medieval town built inside an extinct volcano crater, laced with towers and bridges.",
+      "howToGet": "Buses from Skopje (2 h) or Kumanovo (1 h). The town is walkable.",
+      "cost": "Free",
+      "duration": "Half day",
+      "access": "easy",
+      "lat": 42.0781,
+      "lng": 22.1808
+    },
+    {
+      "id": "painted-mosque",
+      "name": "Painted Mosque (Šarena Džamija)",
+      "location": "Tetovo",
+      "region": "West",
+      "category": "Religious",
+      "description": "Unique 15th-century mosque covered inside and out in floral paintings.",
+      "howToGet": "Tetovo centre by the river; any city bus stops within a 5-min walk.",
+      "cost": "Free",
+      "duration": "1 h",
+      "access": "easy",
+      "lat": 42.0097,
+      "lng": 20.9716
+    },
+    {
+      "id": "tetovo-waterfalls",
+      "name": "Kamenjane Waterfalls",
+      "location": "Tetovo",
+      "region": "West",
+      "category": "Nature",
+      "description": "A chain of small waterfalls in the foothills of the Šar Mountains.",
+      "howToGet": "From Tetovo drive towards Brezno (30 min), then follow trail signs. 4WD recommended.",
+      "cost": "Free",
+      "duration": "Half day",
+      "access": "moderate",
+      "lat": 42.0412,
+      "lng": 20.9436
+    },
+    {
+      "id": "mavrovo",
+      "name": "Mavrovo National Park",
+      "location": "Mavrovo",
+      "region": "West",
+      "category": "Nature",
+      "description": "Largest national park — ski slopes in winter and a half-submerged church by the lake.",
+      "howToGet": "Regular buses from Skopje (2.5 h). The ski resort has accommodation.",
+      "cost": "Free",
+      "duration": "Full day",
+      "access": "easy",
+      "lat": 41.6667,
+      "lng": 20.7333
+    },
+    {
+      "id": "bigorski",
+      "name": "St. Jovan Bigorski Monastery",
+      "location": "Debar",
+      "region": "West",
+      "category": "Religious",
+      "description": "Mountain monastery famous for its breathtaking wood-carved iconostasis.",
+      "howToGet": "Between Debar and Gostivar. Car or organised tour; beautiful but winding road.",
+      "cost": "Free",
+      "duration": "1–2 h",
+      "access": "moderate",
+      "lat": 41.6119,
+      "lng": 20.6106
+    },
+    {
+      "id": "stobi",
+      "name": "Stobi Archaeological Site",
+      "location": "Gradsko",
+      "region": "Central",
+      "category": "Archaeological",
+      "description": "Ancient Roman city at a crossroads of civilisations, with a theatre and mosaics.",
+      "howToGet": "On the Skopje–Gevgelija highway. Stop at Gradsko, then a 10-min taxi.",
+      "cost": "~120 MKD",
+      "duration": "2 h",
+      "access": "easy",
+      "lat": 41.5517,
+      "lng": 21.9742
+    },
+    {
+      "id": "tikves",
+      "name": "Tikveš Wine Region",
+      "location": "Kavadarci",
+      "region": "Central",
+      "category": "Wine",
+      "description": "The country’s premier wine region — cellar tours and tastings around Kavadarci.",
+      "howToGet": "Centred on Kavadarci. Book winery tours ahead and arrange a driver.",
+      "cost": "Tastings vary",
+      "duration": "Full day",
+      "access": "moderate",
+      "lat": 41.4333,
+      "lng": 22.0167
+    },
+    {
+      "id": "treskavec",
+      "name": "Treskavec Monastery",
+      "location": "Prilep",
+      "region": "Pelagonia",
+      "category": "Religious",
+      "description": "Remote mountain-top monastery among granite boulders, with stunning views.",
+      "howToGet": "Difficult access: 4WD from Prilep (1 h rough road) or a 3-hour hike. Guide recommended.",
+      "cost": "Free",
+      "duration": "Half day",
+      "access": "hard",
+      "lat": 41.4211,
+      "lng": 21.5578
+    },
+    {
+      "id": "markovi-kuli",
+      "name": "Markovi Kuli",
+      "location": "Prilep",
+      "region": "Pelagonia",
+      "category": "Historical",
+      "description": "Medieval fortress ruins scattered across surreal rock formations.",
+      "howToGet": "15-min drive north of Prilep, then a 30-min marked trail from the parking.",
+      "cost": "Free",
+      "duration": "2 h",
+      "access": "moderate",
+      "lat": 41.3469,
+      "lng": 21.5528
+    },
+    {
+      "id": "stone-bridge",
+      "name": "Stone Bridge",
+      "location": "Skopje",
+      "region": "Skopje",
+      "category": "Historical",
+      "description": "15th-century Ottoman bridge over the Vardar — the symbol of Skopje, linking the square and the bazaar.",
+      "howToGet": "Right off Macedonia Square; walk.",
+      "cost": "Free",
+      "duration": "15 min",
+      "access": "easy",
+      "lat": 41.998,
+      "lng": 21.4329
+    },
+    {
+      "id": "mother-teresa-house",
+      "name": "Memorial House of Mother Teresa",
+      "location": "Skopje",
+      "region": "Skopje",
+      "category": "Museum",
+      "description": "Museum and chapel on the site of the church where Mother Teresa, born in Skopje in 1910, was baptised.",
+      "howToGet": "On Macedonia Street, 3 min walk from the main square.",
+      "cost": "Free",
+      "duration": "45 min",
+      "access": "easy",
+      "lat": 41.9954,
+      "lng": 21.4296
+    },
+    {
+      "id": "macedonian-struggle-museum",
+      "name": "Museum of the Macedonian Struggle",
+      "location": "Skopje",
+      "region": "Skopje",
+      "category": "Museum",
+      "description": "Guided walk through the fight for independence with wax figures and grand halls. Tours run in English.",
+      "howToGet": "On the Vardar embankment next to the Stone Bridge.",
+      "cost": "~300 MKD",
+      "duration": "1–1.5 h",
+      "access": "easy",
+      "lat": 41.9978,
+      "lng": 21.43
+    },
+    {
+      "id": "skopje-aqueduct",
+      "name": "Skopje Aqueduct",
+      "location": "Skopje",
+      "region": "Skopje",
+      "category": "Historical",
+      "description": "The only surviving aqueduct in the country — 55 stone arches in an open field north of the centre.",
+      "howToGet": "Taxi ~10 min from the centre (~200 MKD), near the village of Vizbegovo.",
+      "cost": "Free",
+      "duration": "30–45 min",
+      "access": "moderate",
+      "lat": 42.0213,
+      "lng": 21.4097
+    },
+    {
+      "id": "st-panteleimon-nerezi",
+      "name": "St. Panteleimon, Gorno Nerezi",
+      "location": "Skopje",
+      "region": "Skopje",
+      "category": "Religious",
+      "description": "12th-century church with frescoes that anticipated the Renaissance — and a terrace view over Skopje.",
+      "howToGet": "Taxi up Vodno’s slopes (~15 min, ~300 MKD).",
+      "cost": "~120 MKD",
+      "duration": "1 h",
+      "access": "easy",
+      "lat": 41.9808,
+      "lng": 21.3745
+    },
+    {
+      "id": "ohrid-ancient-theatre",
+      "name": "Ancient Theatre of Ohrid",
+      "location": "Ohrid",
+      "region": "Ohrid & Prespa",
+      "category": "Archaeological",
+      "description": "Hellenistic theatre in the old town, still used for the Ohrid Summer Festival.",
+      "howToGet": "10-min uphill walk through the old town.",
+      "cost": "Free",
+      "duration": "30 min",
+      "access": "easy",
+      "lat": 41.1143,
+      "lng": 20.7956
+    },
+    {
+      "id": "plaoshnik",
+      "name": "Plaošnik & St. Panteleimon",
+      "location": "Ohrid",
+      "region": "Ohrid & Prespa",
+      "category": "Religious",
+      "description": "Rebuilt church of St. Clement’s monastery — birthplace of the Ohrid Literary School — with early Christian mosaics.",
+      "howToGet": "Between Samuel’s Fortress and Kaneo; walk.",
+      "cost": "~100 MKD",
+      "duration": "45 min",
+      "access": "easy",
+      "lat": 41.1123,
+      "lng": 20.7905
+    },
+    {
+      "id": "golem-grad",
+      "name": "Golem Grad (Snake Island)",
+      "location": "Lake Prespa",
+      "region": "Ohrid & Prespa",
+      "category": "Nature",
+      "description": "Uninhabited island on Lake Prespa with ruined churches, juniper forest and lots of (harmless) snakes.",
+      "howToGet": "Boat from Konjsko or Stenje on Lake Prespa, May–October. ~1.5 h drive from Ohrid.",
+      "cost": "Boat ~600 MKD",
+      "duration": "Half day",
+      "access": "hard",
+      "lat": 40.8736,
+      "lng": 20.9908
+    },
+    {
+      "id": "vevcani",
+      "name": "Vevčani Springs",
+      "location": "Struga",
+      "region": "Ohrid & Prespa",
+      "category": "Nature",
+      "description": "Cool mountain springs above a quirky village that once declared itself a \"republic\". Famous January carnival.",
+      "howToGet": "15 km from Struga — minibus or taxi (~500 MKD).",
+      "cost": "Small fee",
+      "duration": "2 h",
+      "access": "easy",
+      "lat": 41.2403,
+      "lng": 20.5947
+    },
+    {
+      "id": "lake-dojran",
+      "name": "Lake Dojran",
+      "location": "Star Dojran",
+      "region": "East",
+      "category": "Nature",
+      "description": "Warm, shallow lake on the Greek border — the warmest swimming in the country and traditional reed fishing.",
+      "howToGet": "~2.5 h by car from Skopje; buses via Gevgelija.",
+      "cost": "Free",
+      "duration": "Full day",
+      "access": "easy",
+      "lat": 41.1797,
+      "lng": 22.7261
+    },
+    {
+      "id": "demir-kapija",
+      "name": "Demir Kapija Gorge",
+      "location": "Demir Kapija",
+      "region": "Central",
+      "category": "Nature",
+      "description": "The \"Iron Gate\" — a dramatic Vardar gorge with climbing routes, cycling and nearby wineries.",
+      "howToGet": "1 h by car from Skopje on the E-75; also on the Skopje–Gevgelija train line.",
+      "cost": "Free",
+      "duration": "Half day",
+      "access": "easy",
+      "lat": 41.406,
+      "lng": 22.244
+    },
+    {
+      "id": "kuklica",
+      "name": "Kuklica Stone Dolls",
+      "location": "Kratovo",
+      "region": "East",
+      "category": "Nature",
+      "description": "Over 100 eroded rock pillars that legend says are a wedding party turned to stone.",
+      "howToGet": "10 km from Kratovo; car or taxi, short marked walk.",
+      "cost": "~50 MKD",
+      "duration": "1 h",
+      "access": "moderate",
+      "lat": 42.1194,
+      "lng": 22.1306
+    },
+    {
+      "id": "lesnovo",
+      "name": "Lesnovo Monastery",
+      "location": "Probištip",
+      "region": "East",
+      "category": "Religious",
+      "description": "14th-century monastery in an extinct volcano with some of the finest Byzantine frescoes in the Balkans.",
+      "howToGet": "Car from Kratovo or Probištip (~30 min).",
+      "cost": "Free",
+      "duration": "1 h",
+      "access": "moderate",
+      "lat": 42.0331,
+      "lng": 22.2483
+    },
+    {
+      "id": "zrze",
+      "name": "Zrze Monastery",
+      "location": "Prilep",
+      "region": "Pelagonia",
+      "category": "Religious",
+      "description": "Cliff-top monastery overlooking the Pelagonia plain — worth it for the sunset alone.",
+      "howToGet": "~30 km from Prilep, last stretch on a steep road; car needed.",
+      "cost": "Free",
+      "duration": "1–2 h",
+      "access": "hard",
+      "lat": 41.5336,
+      "lng": 21.3297
+    },
+    {
+      "id": "popova-shapka",
+      "name": "Popova Šapka",
+      "location": "Tetovo",
+      "region": "West",
+      "category": "Nature",
+      "description": "Šar Mountain ski resort in winter, wildflower meadows and ridge hikes in summer.",
+      "howToGet": "~30 min drive up from Tetovo (winding road).",
+      "cost": "Free (lift passes extra)",
+      "duration": "Full day",
+      "access": "moderate",
+      "lat": 42.0189,
+      "lng": 20.8792
+    },
+    {
+      "id": "korab",
+      "name": "Mount Korab",
+      "location": "Mavrovo",
+      "region": "West",
+      "category": "Nature",
+      "description": "Highest peak in the country (2,764 m) on the Albanian border. A long but non-technical summer hike.",
+      "howToGet": "From Mavrovo by 4×4 to the trailhead; go with a local guide or the annual group ascent.",
+      "cost": "Guide recommended",
+      "duration": "Full day",
+      "access": "hard",
+      "lat": 41.7906,
+      "lng": 20.5475
+    },
+    {
+      "id": "duf-waterfall",
+      "name": "Duf Waterfall",
+      "location": "Rostuše",
+      "region": "West",
+      "category": "Nature",
+      "description": "A 20-metre waterfall at the end of a shaded 20-minute forest trail in Mavrovo park.",
+      "howToGet": "Trail starts in Rostuše, 15 min past Bigorski Monastery.",
+      "cost": "Free",
+      "duration": "1–2 h",
+      "access": "moderate",
+      "lat": 41.6106,
+      "lng": 20.6038
+    }
+  ],
+  "venues": [
+    {
+      "id": "garson",
+      "name": "Garson",
+      "type": "nightlife",
+      "category": "Cocktail bar",
+      "description": "Trendy cocktail bar with a cosy vibe, DJ nights and karaoke every weekend.",
+      "location": "Centar, Skopje"
+    },
+    {
+      "id": "kotur",
+      "name": "Kotur",
+      "type": "nightlife",
+      "category": "Bar",
+      "description": "Stylish bar with a chic interior, great music and DJs every weekend.",
+      "location": "Debar Maalo, Skopje"
+    },
+    {
+      "id": "kino-karposh",
+      "name": "Kino Karposh",
+      "type": "nightlife",
+      "category": "Bar",
+      "description": "Bar inside a retro cinema with events, drinks and DJs.",
+      "location": "Karposh, Skopje"
+    },
+    {
+      "id": "crash-bar",
+      "name": "Crash Bar",
+      "type": "nightlife",
+      "category": "Rock bar",
+      "description": "Underground rock bar with a raw, loud, friendly vibe.",
+      "location": "Centar, Skopje"
+    },
+    {
+      "id": "pogon",
+      "name": "Pogon",
+      "type": "nightlife",
+      "category": "Bar",
+      "description": "Hipster hangout with occasional gigs and events.",
+      "location": "Centar, Skopje"
+    },
+    {
+      "id": "mambo",
+      "name": "Mambo Gin & Tonic Bar",
+      "type": "nightlife",
+      "category": "Cocktail bar",
+      "description": "Near the centre, with a long list of gins to try.",
+      "location": "Centar, Skopje"
+    },
+    {
+      "id": "samo",
+      "name": "Samo",
+      "type": "nightlife",
+      "category": "Board-game café",
+      "description": "Board-game café — pick a game off the shelf and settle in.",
+      "location": "Debar Maalo, Skopje"
+    },
+    {
+      "id": "badu",
+      "name": "Badu",
+      "type": "nightlife",
+      "category": "Garden bar",
+      "description": "Outdoor chill zone in the park with a great vibe and all kinds of drinks.",
+      "location": "City Park, Skopje"
+    },
+    {
+      "id": "radio-bar",
+      "name": "Radio Bar",
+      "type": "nightlife",
+      "category": "Bar",
+      "description": "Known for house-music nights and creative cocktails.",
+      "location": "Debar Maalo, Skopje"
+    },
+    {
+      "id": "bkw",
+      "name": "BKW Bar",
+      "type": "nightlife",
+      "category": "Bar",
+      "description": "Rustic-modern bar with live music and outdoor seating.",
+      "location": "Old Town, Bitola"
+    },
+    {
+      "id": "the-dude",
+      "name": "The Dude Specialty Coffee",
+      "type": "cafe",
+      "category": "Specialty coffee",
+      "description": "Specialty roastery and café with exceptional single-origin beans.",
+      "location": "Centar, Skopje"
+    },
+    {
+      "id": "sinatra",
+      "name": "Sinatra Coffee",
+      "type": "cafe",
+      "category": "Espresso bar",
+      "description": "Elegant coffee bar with premium espresso.",
+      "location": "Debar Maalo, Skopje"
+    },
+    {
+      "id": "edge",
+      "name": "Edge Coffee",
+      "type": "cafe",
+      "category": "Specialty coffee",
+      "description": "Modern coffee shop with innovative brewing and specialty drinks.",
+      "location": "Centar, Skopje"
+    },
+    {
+      "id": "greenhill",
+      "name": "Greenhill Coffee",
+      "type": "cafe",
+      "category": "Roastery",
+      "description": "Sustainable roastery focused on quality and environmental responsibility.",
+      "location": "Vodno, Skopje"
+    },
+    {
+      "id": "rutina",
+      "name": "Rutina",
+      "type": "cafe",
+      "category": "Café",
+      "description": "Trendy café in Leptokarija with great coffee and a relaxed atmosphere.",
+      "location": "Karpoš, Skopje"
+    }
+  ],
+  "dishes": [
+    {
+      "id": "pastrmajlija",
+      "name": "Pastrmajlija",
+      "description": "Oval flatbread topped with cured, diced meat and often an egg, baked until crispy.",
+      "where": "Štip, Veles and Prilep bakeries",
+      "price": "150–250 MKD"
+    },
+    {
+      "id": "tavche-gravche",
+      "name": "Tavče Gravče",
+      "description": "The national dish: white beans baked in a clay pot with paprika and onion.",
+      "where": "Any traditional restaurant",
+      "price": "120–180 MKD"
+    },
+    {
+      "id": "ajvar",
+      "name": "Ajvar",
+      "description": "Roasted red-pepper relish made every autumn and served with bread or meat.",
+      "where": "Markets and homes",
+      "price": "~150 MKD / jar"
+    },
+    {
+      "id": "simit",
+      "name": "Simit Pogača",
+      "description": "Round sesame bread — crunchy outside, soft inside.",
+      "where": "Bakeries across Skopje",
+      "price": "30–60 MKD"
+    },
+    {
+      "id": "sharska",
+      "name": "Šarska Pleskavica",
+      "description": "Grilled meat patty stuffed with cheese — spicy, juicy and filling.",
+      "where": "Kafanas and grill houses",
+      "price": "200–300 MKD"
+    },
+    {
+      "id": "sarma",
+      "name": "Sarma",
+      "description": "Cabbage or vine leaves rolled around minced meat and rice, slow-cooked.",
+      "where": "Traditional restaurants",
+      "price": "150–220 MKD"
+    },
+    {
+      "id": "burek",
+      "name": "Burek",
+      "description": "Flaky pastry with meat, cheese or spinach — the classic breakfast, with yoghurt.",
+      "where": "Every bakery",
+      "price": "60–120 MKD"
+    },
+    {
+      "id": "mekica",
+      "name": "Mekica",
+      "description": "Fried dough, fluffy and golden — eat it with cheese, jam or honey.",
+      "where": "Most bakeries",
+      "price": "20–40 MKD"
+    },
+    {
+      "id": "kebapi",
+      "name": "Kebapi",
+      "description": "Small grilled minced-meat sausages served by the ten with bread, raw onion and a pepper.",
+      "where": "Old Bazaar grill houses",
+      "price": "200–350 MKD"
+    },
+    {
+      "id": "selsko-meso",
+      "name": "Selsko Meso",
+      "description": "\"Village meat\" — pork and mushrooms baked in a clay pot with cheese on top.",
+      "where": "Kafanas and family restaurants",
+      "price": "300–450 MKD"
+    },
+    {
+      "id": "turli-tava",
+      "name": "Turli Tava",
+      "description": "Slow-baked casserole of meat, okra, aubergine, peppers and rice.",
+      "where": "Traditional restaurants",
+      "price": "250–400 MKD"
+    },
+    {
+      "id": "polneti-piperki",
+      "name": "Polneti Piperki",
+      "description": "Peppers stuffed with minced meat and rice, baked in tomato sauce.",
+      "where": "Home-style restaurants",
+      "price": "200–300 MKD"
+    },
+    {
+      "id": "ohrid-trout",
+      "name": "Ohrid Trout",
+      "description": "The lake’s famous endemic trout is protected — most restaurants serve farmed trout or other lake fish instead. Ask what you’re getting.",
+      "where": "Lakeside restaurants in Ohrid & Struga",
+      "price": "500–900 MKD"
+    },
+    {
+      "id": "shopska",
+      "name": "Šopska Salad",
+      "description": "Tomato, cucumber, pepper and onion buried under grated white cheese. Ordered with everything.",
+      "where": "Everywhere",
+      "price": "120–200 MKD"
+    },
+    {
+      "id": "pindjur",
+      "name": "Pindžur",
+      "description": "Roasted pepper, tomato and garlic spread — ajvar’s chunkier, garlicky cousin.",
+      "where": "Kafanas, with bread",
+      "price": "100–180 MKD"
+    },
+    {
+      "id": "malidzano",
+      "name": "Malidžano",
+      "description": "Smoky roasted aubergine mashed with garlic, oil and sometimes walnuts or cheese.",
+      "where": "Kafanas, as a starter",
+      "price": "100–180 MKD"
+    },
+    {
+      "id": "gjomleze",
+      "name": "Gjomleze",
+      "description": "Struga speciality: thin layers of batter baked slowly under a lid of hot coals. Takes hours — order ahead.",
+      "where": "Villages around Struga",
+      "price": "Varies"
+    },
+    {
+      "id": "baklava",
+      "name": "Baklava",
+      "description": "Layers of filo, walnuts and syrup — the Old Bazaar sweet shops are the place.",
+      "where": "Slatkarnici (sweet shops) in the Old Bazaar",
+      "price": "60–120 MKD"
+    },
+    {
+      "id": "tulumba",
+      "name": "Tulumba",
+      "description": "Fried ridged dough soaked in syrup; crunchy outside, soaked inside.",
+      "where": "Sweet shops",
+      "price": "50–100 MKD"
+    },
+    {
+      "id": "boza",
+      "name": "Boza",
+      "description": "Thick, slightly fermented millet drink — sweet-sour and a traditional match for baklava.",
+      "where": "Old Bazaar sweet shops",
+      "price": "40–70 MKD"
+    },
+    {
+      "id": "rakija",
+      "name": "Rakija",
+      "description": "Fruit brandy (grape \"lozova\" is classic). Sipped, not shot — \"Na zdravje!\"",
+      "where": "Every kafana — and every grandparent",
+      "price": "60–150 MKD / glass"
+    },
+    {
+      "id": "vranec",
+      "name": "Vranec Wine",
+      "description": "The country’s signature dark red grape, deep and fruity. Try it in the Tikveš region.",
+      "where": "Wine bars and wineries",
+      "price": "150–300 MKD / glass"
+    }
+  ],
+  "eateries": [
+    {
+      "id": "teteks",
+      "name": "Teteks",
+      "description": "Popular local spot for grilled meats, burgers and toasties.",
+      "specialties": "Kebapi, grill, burgers",
+      "price": "200–300 MKD",
+      "location": "Several locations in Skopje"
+    },
+    {
+      "id": "royal",
+      "name": "Royal",
+      "description": "Go-to Skopje fast food for burgers and wraps.",
+      "specialties": "Burgers, wraps",
+      "price": "200–300 MKD",
+      "location": "Aerodrom & Debar Maalo"
+    },
+    {
+      "id": "munchies",
+      "name": "Munchies",
+      "description": "Casual burgers, pizza and international comfort food.",
+      "specialties": "Burgers, fries, wraps",
+      "price": "200–400 MKD",
+      "location": "Aerodrom"
+    },
+    {
+      "id": "jojos",
+      "name": "Jojo's",
+      "description": "Event food truck with great burgers and hot dogs.",
+      "specialties": "Burgers, hot dogs, wurst",
+      "price": "200–350 MKD",
+      "location": "Pops up at events"
+    },
+    {
+      "id": "oljos",
+      "name": "Oljo's",
+      "description": "Burger spot on the bohemian street of Debar Maalo.",
+      "specialties": "Burgers",
+      "price": "250–550 MKD",
+      "location": "Boemska St, Debar Maalo"
+    },
+    {
+      "id": "15za12",
+      "name": "15za12",
+      "description": "Pizzeria specialising in Neapolitan pizza.",
+      "specialties": "Neapolitan pizza",
+      "price": "350–600 MKD",
+      "location": "Kisela Voda"
+    },
+    {
+      "id": "silbo",
+      "name": "Silbo",
+      "description": "Bakery open until 2–3 AM. Order the Silbo gevrek.",
+      "specialties": "Pastries, pizza, desserts",
+      "price": "50–150 MKD",
+      "location": "Debar Maalo & Aerodrom"
+    },
+    {
+      "id": "mekici-strazha",
+      "name": "Mekicite na Straža",
+      "description": "Legendary roadside stop on the way to Ohrid for fresh mekici — mandatory.",
+      "specialties": "Mekici, piroshki, breakfast",
+      "price": "30–120 MKD",
+      "location": "E-65 highway, Straža pass"
+    },
+    {
+      "id": "destan",
+      "name": "Destan",
+      "description": "Kebapi institution in the Old Bazaar — the menu is basically one thing, done right.",
+      "specialties": "Kebapi with bread and onion",
+      "price": "200–350 MKD",
+      "location": "Old Bazaar, Skopje"
+    },
+    {
+      "id": "pivnica-an",
+      "name": "Pivnica An",
+      "description": "Restaurant in the courtyard of Kapan An, a 15th-century caravanserai in the Old Bazaar.",
+      "specialties": "Traditional dishes, local beer",
+      "price": "350–700 MKD",
+      "location": "Kapan An, Old Bazaar, Skopje"
+    },
+    {
+      "id": "skopski-merak",
+      "name": "Skopski Merak",
+      "description": "Busy Debar Maalo kafana with live starogradska music in the evenings.",
+      "specialties": "Grill, pindžur, local wine",
+      "price": "400–800 MKD",
+      "location": "Debar Maalo, Skopje"
+    },
+    {
+      "id": "antiko",
+      "name": "Antiko",
+      "description": "Stone house restaurant in Ohrid’s old town serving traditional and lake dishes.",
+      "specialties": "Lake fish, tavče gravče",
+      "price": "500–1,000 MKD",
+      "location": "Old town, Ohrid"
+    }
+  ],
+  "festivals": [
+    {
+      "name": "Strumica Carnival",
+      "months": [
+        1,
+        2
+      ],
+      "when": "Feb/Mar",
+      "where": "Strumica",
+      "text": "Masked parades and all-night parties before Lent."
+    },
+    {
+      "name": "Vevčani Carnival",
+      "months": [
+        0
+      ],
+      "when": "Jan 13–14",
+      "where": "Vevčani",
+      "text": "1,400-year-old pagan-rooted masquerade in a mountain village."
+    },
+    {
+      "name": "Skopje Jazz Festival",
+      "months": [
+        9
+      ],
+      "when": "October",
+      "where": "Skopje",
+      "text": "Running since 1982, with big international names."
+    },
+    {
+      "name": "Ohrid Summer Festival",
+      "months": [
+        6,
+        7
+      ],
+      "when": "Jul–Aug",
+      "where": "Ohrid",
+      "text": "Classical music, theatre and opera in the ancient theatre."
+    },
+    {
+      "name": "Struga Poetry Evenings",
+      "months": [
+        7
+      ],
+      "when": "Late August",
+      "where": "Struga",
+      "text": "Readings on the bridges over the Black Drin."
+    },
+    {
+      "name": "Galičnik Wedding",
+      "months": [
+        6
+      ],
+      "when": "Mid-July",
+      "where": "Galičnik",
+      "text": "A traditional village wedding with costumes and folk dance."
+    },
+    {
+      "name": "Prilep Beer Fest",
+      "months": [
+        6
+      ],
+      "when": "July",
+      "where": "Prilep",
+      "text": "Free open-air concerts and local beer."
+    },
+    {
+      "name": "Tikveš Grape Harvest",
+      "months": [
+        8
+      ],
+      "when": "September",
+      "where": "Kavadarci",
+      "text": "Wine parade, tastings and grape treading."
+    },
+    {
+      "name": "Ohrid Swimming Marathon",
+      "months": [
+        6,
+        7
+      ],
+      "when": "July/August",
+      "where": "Ohrid",
+      "text": "30 km across the lake from St. Naum to Ohrid."
+    }
+  ],
+  "transport": [
+    {
+      "title": "City buses (JSP)",
+      "body": "Skopje’s public bus network runs from early morning to around midnight. Buy a refillable Skopje Card at kiosks, or pay the driver (~35 MKD). The card gives discounted fares."
+    },
+    {
+      "title": "Taxis",
+      "body": "Licensed taxis are cheap and metered: ~50–60 MKD start + ~40 MKD/km, so 5 km is a little over 200 MKD. Always make sure the meter is running."
+    },
+    {
+      "title": "BinBin e-scooters",
+      "body": "Scan the QR code to unlock, ~9 MKD per minute, max 25 km/h. Stick to bike lanes and park responsibly."
+    },
+    {
+      "title": "Intercity, trains & cars",
+      "body": "Comfortable coaches connect all major cities (Skopje–Ohrid ~3 h). Trains are limited but scenic. Car rental at the airport and in the centre costs about €20–40/day."
+    }
+  ],
+  "prices": [
+    {
+      "group": "Food & drink",
+      "item": "Restaurant meal",
+      "price": "200–500 MKD"
+    },
+    {
+      "group": "Food & drink",
+      "item": "Fast-food combo",
+      "price": "150–350 MKD"
+    },
+    {
+      "group": "Food & drink",
+      "item": "Burek",
+      "price": "~80 MKD"
+    },
+    {
+      "group": "Food & drink",
+      "item": "Local beer 0.5 L (Skopsko, Zlaten Dab)",
+      "price": "~150 MKD"
+    },
+    {
+      "group": "Food & drink",
+      "item": "Glass of wine",
+      "price": "120–200 MKD"
+    },
+    {
+      "group": "Food & drink",
+      "item": "Espresso",
+      "price": "60–90 MKD"
+    },
+    {
+      "group": "Food & drink",
+      "item": "Water 0.5 L",
+      "price": "30–40 MKD"
+    },
+    {
+      "group": "Getting around",
+      "item": "City bus ride",
+      "price": "~35 MKD"
+    },
+    {
+      "group": "Getting around",
+      "item": "Taxi start + per km",
+      "price": "50 MKD + 40 MKD/km"
+    },
+    {
+      "group": "Getting around",
+      "item": "Airport → centre by taxi",
+      "price": "1,200–1,500 MKD"
+    },
+    {
+      "group": "Getting around",
+      "item": "Airport → centre by bus",
+      "price": "~200 MKD"
+    },
+    {
+      "group": "Getting around",
+      "item": "Intercity bus",
+      "price": "300–800 MKD"
+    }
+  ]
+}

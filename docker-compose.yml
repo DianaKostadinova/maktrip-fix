@@ -1,0 +1,66 @@
+# Discover Macedonia — full stack.
+#
+#   docker compose up --build                  # web + API (AI planner shows "coming soon")
+#   PLANNER_ENABLED=true docker compose --profile ollama up --build  # with the AI planner
+#                                              # (set OLLAMA_URL=http://ollama:11434 in .env)
+#
+# Open http://localhost:8080 (or WEB_PORT from .env).
+
+name: discover-macedonia
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: docker/web/Dockerfile
+    image: discover-macedonia/web:local
+    ports:
+      - "${WEB_PORT:-8080}:80"
+    # Firebase/ImgBB settings are injected into config.js at container start.
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      API_UPSTREAM: http://api:8080
+      PLANNER_ENABLED: ${PLANNER_ENABLED:-false}
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+
+  api:
+    build: ./backend
+    image: discover-macedonia/api:local
+    environment:
+      PLANNER_ENABLED: ${PLANNER_ENABLED:-false} # AI trip planner — "coming soon" until true
+      OLLAMA_URL: ${OLLAMA_URL:-http://host.docker.internal:11434}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-llama3.2:3b}
+      CORS_ORIGINS: http://localhost:${WEB_PORT:-8080}
+    extra_hosts:
+      - "host.docker.internal:host-gateway" # reach Ollama on the host (Linux too)
+    restart: unless-stopped
+
+  # ---- optional: run the model server in Docker -------------------------
+  ollama:
+    profiles: [ollama]
+    image: ollama/ollama:0.40.3
+    volumes:
+      - ollama:/root/.ollama
+    restart: unless-stopped
+    # NVIDIA GPU: uncomment (needs the NVIDIA Container Toolkit / Docker Desktop GPU support)
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices: [{ driver: nvidia, count: all, capabilities: [gpu] }]
+
+  ollama-pull:
+    profiles: [ollama]
+    image: ollama/ollama:0.40.3
+    environment:
+      OLLAMA_HOST: ollama:11434
+    entrypoint: ["/bin/sh", "-c", "sleep 3 && ollama pull ${OLLAMA_MODEL:-llama3.2:3b}"]
+    depends_on: [ollama]
+    restart: "no"
+
+volumes:
+  ollama:

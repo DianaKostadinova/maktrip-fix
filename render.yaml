@@ -1,0 +1,25 @@
+# Render Blueprint — the Spring API on Render's free plan.
+# Render dashboard → New → Blueprint → pick this repo. Then set CORS_ORIGINS to
+# your website's address (e.g. https://discover-macedonia.pages.dev).
+#
+# Free instances sleep after ~15 min idle and take ~1 min to wake; the website
+# copes with that (news hides/serves cached headlines until the API is up).
+
+services:
+  - type: web
+    name: discover-macedonia-api
+    runtime: docker
+    plan: free
+    region: frankfurt
+    dockerContext: ./backend
+    dockerfilePath: ./backend/Dockerfile
+    healthCheckPath: /actuator/health
+    autoDeploy: true
+    envVars:
+      - key: PLANNER_ENABLED
+        value: "false"
+      - key: CORS_ORIGINS
+        sync: false # set in the dashboard: your website URL(s), comma-separated
+      # Free instances have 512 MB RAM: keep the JVM small.
+      - key: JAVA_TOOL_OPTIONS
+        value: "-XX:MaxRAMPercentage=60 -XX:+UseSerialGC -Xss512k -XX:+ExitOnOutOfMemoryError"

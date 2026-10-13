@@ -1,0 +1,35 @@
+# Production overrides — adds HTTPS in front of the stack.
+#
+#   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
+#
+# Needs DOMAIN in .env and the domain's DNS pointing at this server.
+
+services:
+  web:
+    # Not published directly any more — Caddy is the only public entry point.
+    ports: !reset []
+    expose:
+      - "80"
+
+  api:
+    environment:
+      CORS_ORIGINS: https://${DOMAIN:?Set DOMAIN in .env}
+
+  caddy:
+    image: caddy:2.11-alpine
+    restart: unless-stopped
+    depends_on: [web]
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp" # HTTP/3
+    environment:
+      DOMAIN: ${DOMAIN:?Set DOMAIN in .env}
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data # certificates — keep this volume
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Discover Macedonia: the flag sun rising behind two peaks that form an "M".
+       Transparent background; the red outline keeps the white peaks visible on light surfaces. -->
+  <defs>
+    <clipPath id="round"><circle cx="256" cy="256" r="250"/></clipPath>
+    <clipPath id="above-base"><rect width="512" height="430"/></clipPath>
+  </defs>
+  <!-- eight flag rays, widening outwards, trimmed to a circle -->
+  <g clip-path="url(#round)">
+    <g clip-path="url(#above-base)">
+    <g transform="translate(256 196)" fill="#ffc400">
+      <path id="ray" d="M-13 -84 L13 -84 L66 -460 L-66 -460 Z"/>
+      <use href="#ray" transform="rotate(45)"/>
+      <use href="#ray" transform="rotate(90)"/>
+      <use href="#ray" transform="rotate(135)"/>
+      <use href="#ray" transform="rotate(180)"/>
+      <use href="#ray" transform="rotate(225)"/>
+      <use href="#ray" transform="rotate(270)"/>
+      <use href="#ray" transform="rotate(315)"/>
+    </g>
+    </g>
+  </g>
+  <!-- sun disc with the flag's red ring -->
+  <circle cx="256" cy="196" r="80" fill="#d2141c"/>
+  <circle cx="256" cy="196" r="64" fill="#ffc400"/>
+  <!-- the M: two big white peaks on a flat base -->
+  <path d="M24 440 L132 214 L256 380 L380 214 L488 440 Z"
+        fill="#ffffff" stroke="#d2141c" stroke-width="18" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,23 @@
+# Public entry point in production. Caddy gets and renews HTTPS certificates
+# from Let's Encrypt automatically for $DOMAIN (set in .env).
+
+{$DOMAIN} {
+	encode zstd gzip
+
+	# Security headers for the whole site (nginx adds caching headers).
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		-Server
+	}
+
+	# Everything goes to the web container; it serves the PWA and proxies /api to Spring.
+	reverse_proxy web:80 {
+		# streamed planner responses must not be buffered
+		flush_interval -1
+	}
+}
+
+# Send www. to the bare domain.
+www.{$DOMAIN} {
+	redir https://{$DOMAIN}{uri} permanent
+}
